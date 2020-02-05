@@ -1,23 +1,16 @@
-import React from 'react';
-import './App.css';
+import React from "react";
+import "./App.css";
+import Saludo from "./Componentes/Saludo";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Hello World
-        </a>
-      </header>
-    </div>
+    <React.Fragment>
+      <h1>Hello World!</h1>
+      <h4>
+        Desde el componente <span>App</span>
+      </h4>
+      <Saludo></Saludo>
+    </React.Fragment>
   );
 }
 
