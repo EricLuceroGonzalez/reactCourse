@@ -10,6 +10,9 @@ function App() {
         Desde el componente <span>App</span>
       </h4>
       <Saludo></Saludo>
+      <Saludo></Saludo>
+      <Saludo></Saludo>
+      <Saludo></Saludo>
     </React.Fragment>
   );
 }

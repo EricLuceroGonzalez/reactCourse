@@ -1,11 +1,13 @@
 import React, { Component } from "react";
 
 class Saludo extends Component {
-  state = {};
+  state = {
+      variableSaludo: 'Hola desde el componente SALUDO'
+  };
   render() {
     return (
       <div>
-        <h2>Hola desde el componente SALUDO</h2>
+        <h2>{this.state.variableSaludo}</h2>
       </div>
     );
   }
