@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
 import Saludo from "./Componentes/Saludo";
+import Despedida from "./Componentes/Despedida";
 
 function App() {
   return (
@@ -10,9 +11,7 @@ function App() {
         Desde el componente <span>App</span>
       </h4>
       <Saludo></Saludo>
-      <Saludo></Saludo>
-      <Saludo></Saludo>
-      <Saludo></Saludo>
+      <Despedida variableProp='Chao'></Despedida>
     </React.Fragment>
   );
 }
